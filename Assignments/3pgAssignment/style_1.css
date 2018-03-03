@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+    font-weight:normal;
+}
+
+#wrapper{
+    border-style: solid;
+    border-color: black;
+    width:1200px;
+    margin:auto;
+    padding: 35px;
+}
+
+#title{
+    text-align: right; 
+}
+#title::after{
+    content:' Incident Report pg 1/785'
+}
+
+a{
+    display: block;
+}
+#navigation{
+    text-align: right;
+    width: 160px;
+    margin-left: 85%;
+}
+#navigation a:hover::before{
+    content: '-> ';
+}
+
+img{
+    display: none;
+}
+
+.sensitive{
+    background-color: black;
+}

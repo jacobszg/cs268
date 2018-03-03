@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-image: url(images/lambda.jpg);
+}
+img{
+    width:500px;
+    border: 25px dotted darkgreen;
+}
+a{
+    display:block;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+a::before{
+    content:'Click Here To Go To ';
+}
+a::after{
+    content:'?';
+}
+a:hover::after{
+    content:'!';
+}
+#title{
+    font-size: 50px;
+    font-family: Papyrus, fantasy, sans-serif;
+    text-transform: uppercase;
+}
+#title::after{
+    content:': What we know';
+}
+.section{
+    background-color: rgba(47, 255, 151, 0.2);
+}
+h2{
+    padding-top: 35px;
+    font-size: 30px;
+    font-family: Papyrus, fantasy, sans-serif;
+   
+    text-transform: uppercase;
+}
+p{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-transform: lowercase;
+    padding: 15px 48px;
+}
+#wrapper{
+    min-width: 600px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    color: greenyellow;
+}
+.sensitive{
+    color: red;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
